@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ভ্রমন বিলাস</string>
+    <string name="trang_ch">trang chủ</string>
+    <string name="th_ng_tin_c_nh_n">Thông tin cá nhân</string>
+    <string name="nav_header_subtitle">Nav Header Subtitle</string>
+    <string name="nav_header_title">Nav Header Title</string>
+    <string name="DatXeBuyt">Đặt Xe Buýt</string>
+    <string name="ng_xu_t">Đăng xuất</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="admin_profile">Thông tin cá nhân</string>
+    <string name="admin_home">Trang chủ</string>
+    <string name="AdminMain">Trang chủ</string>
+    <string name="AdminProfile">Tài khoản</string>
+    <string name="UserMain">Trang chủ</string>
+    <string name="UserProfile">Tài khoản</string>
+    <string name="invalid_phone">Vui lòng nhập số điện thoại hợp lệ</string>
+    <string name="action_search">action search</string>
+    <string name="th_m_tuy_n_m_i">Thêm tuyến mới</string>
+    <string name="action_voice_search">action voice search</string>
+    <string name="search_hint">action voice</string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.project">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:label="@string/DatXeBuyt"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project">
+        <activity
+            android:name=".activity.UserNewPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.AdminNewPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.UserEnterEmailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.AdminEnterEmailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.UserResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.AdminResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.AdminChangePasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.AdminEditProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ListBusUserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.AdminEditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ListBusActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.UserMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.AdminMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.UserProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.AdminProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.UserChangePasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.UserEditProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ListOrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ActivityBookingView"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ListTravelActivity"
+            android:exported="true" />
+        <activity android:name=".activity.deletebus" />
+        <activity android:name=".activity.updatebus" />
+        <activity android:name=".activity.adminlogin" />
+        <activity android:name=".activity.adminsignup" />
+        <activity android:name=".activity.AddBusActivity" />
+        <activity android:name=".activity.Signup" />
+        <activity android:name=".activity.Login" />
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
